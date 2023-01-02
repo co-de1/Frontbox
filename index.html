@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Front Box </title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <div class="menu-bg">
+            <nav class="menu">
+                <div class="menu-log">
+                    <a href="index.html"> <img src="img/logo.png" alt=""> </a>
+                </div>
+                <div class="nav">
+                    <ul class="nav-lista">
+                        <li class="nav-item"> <a href="#somos" class="nav-link"> Quem Somos </a> </li>
+                        <li class="nav-item"> <a href="#cursos" class="nav-link"> Nossos Cursos </a> </li>
+                        <li class="nav-item"> <a href="#planos" class="nav-link"> Planos </a> </li>
+                        <li class="nav-item"> <a href="#vantagem" class="nav-link"> Vantagens </a> </li>
+                    </ul>
+                </div>
+                <div class="mobile-menu-icon">
+                    <button onclick="menuShow()"> <img src="img/menu_white_36dp.svg" alt=""> </button>
+                </div>
+            </nav>
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-item"> <a href="#somos" class="nav-link"> Quem Somos </a> </li>
+                    <li class="nav-item"> <a href="#cursos" class="nav-link"> Nossos Cursos </a> </li>
+                    <li class="nav-item"> <a href="#planos" class="nav-link"> Planos </a> </li>
+                    <li class="nav-item"> <a href="#vantagem" class="nav-link"> vantagem </a> </li>
+                </ul>
+            </div>
+        </div>
+        <h1 class="intro"> Aprendendo a Programar <br> Um projeto de cada vez</h1>
+        <hr>
+    </header>
+    <section class="somos" id="somos">
+        <h2 class="sessao_titulo"> Quem somos </h2>
+            <div class="somos_corpo">
+                <div class="somos_texto"> </div>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                    <br>
+                    <p>
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                        The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+                        as opposed to using 'Content here, content here', making it look like readable English.
+            </div>
+            <div class="somos_imagem">
+                <img src="img/somos.png" alt="Quem somos">
+            </div>
+    </section>
+    <section class="cursos" id="cursos">
+        <h2 class="sessao_titulo"> Nossos Cursos </h2>
+            <div class="curso_corpo">
+                <div class="curso"> 
+                    <img src="img/ai.png" alt="Inteligência Artificial" class="curso_img">
+                    <h3 class="curso_titulo"> Inteligência Artificial </h3>
+                    <p class="curso_descrição">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                </div>
+                <div class="curso">
+                    <img src="img/front.png" alt="Frontend" class="curso_img">
+                    <h3 class="curso_titulo"> Frontend </h3>
+                    <p class="curso_descrição">
+                        There are many variations of passages of Lorem Ipsum available, 
+                        but the majority have suffered alteration in some form, by injected humour,
+                    </p>
+                </div>
+                <div class="curso">
+                    <img src="img/seguranca.png" alt="Segurança de Informação" class="curso_img">
+                    <h3 class="curso_titulo"> Segurança de Informação </h3>
+                    <p>
+                        Contrary to popular belief, Lorem Ipsum is not simply random text.
+                        It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                    </p>
+                </div>
+            </div>
+    </section>
+    <section class="planos" id="planos">
+        <h2 class="sessao_titulo"> Planos </h2>
+        <div class="planos_corpo">
+                <div class="plano"> 
+                   <h2 class="plano_titulo"> Básico </h2>
+                   <span class="plano_preco"> <sup> KZ </sup> 30.000 </span>
+                   <hr class="plano_divisor">
+                   <ul>
+                        <li class="plano-lista_item"> 1 mês de acesso ilimitado </li>
+                        <li class="plano-lista_item"> Acesso à todos os cursos </li>
+                        <li class="plano-lista_item"> Certificado de conclusão </li>
+                   </ul>
+                   <a href="#" class="plano_btn-comprar"> Comprar </a>
+                </div>
+                <div class="plano">
+                    <h2 class="plano_titulo"> Premium </h2>
+                    <span class="plano_preco"> <sup> KZ </sup> 25.000 </span>
+                    <hr class="plano_divisor">
+                    <ul>
+                        <li class="plano-lista_item"> 1 mês de acesso ilimitado </li>
+                        <li class="plano-lista_item"> Acesso à todos os cursos </li>
+                        <li class="plano-lista_item"> Certificado de conclusão </li>
+                        <li class="plano-lista_item"> Suporte </li>
+                    </ul>
+                    <a href="#" class="plano_btn-comprar"> Comprar </a>
+                </div>
+                <div class="plano">
+                    <h2 class="plano_titulo"> Ultra </h2>
+                    <span class="plano_preco"> <sup> KZ </sup> 10.000 </span>
+                    <hr class="plano_divisor">
+                    <ul>
+                        <li class="plano-lista_item"> 1 mês de acesso ilimitado </li>
+                        <li class="plano-lista_item"> Acesso à todos os cursos </li>
+                        <li class="plano-lista_item"> Certificado de conclusão </li>
+                        <li class="plano-lista_item"> Suporte </li>
+                        <li class="plano-lista_item"> Download das aulas </li>
+                    </ul>
+                    <a href="#" class="plano_btn-comprar"> Comprar </a>
+                </div>
+            </div>
+    </section>
+    <!-- Outra parte-->
+    <section class="vantagens" id="vantagens">
+            <div class="vantagem">
+                <h2 class="vantagem_titulo"> Foco em projeto </h2>
+                <p class="vantagem_descrição"> by Cicero are also reproduced in their exact original form,
+                    accompanied by English versions from the 1914 translation 
+                    by H. Rackham.</p>
+            </div>
+            <div class="vantagem">
+                <h2 class="vantagem_titulo"> Portfólio incrível </h2>
+                <p class="vantagem_descrição"> by Cicero are also reproduced in their exact original form,
+                    accompanied by English versions from the 1914 translation 
+                    by H. Rackham.</p>
+            </div>
+            <div class="vantagem">
+                <h2 class="vantagem_titulo"> Aprenda fazendo </h2>
+                <p class="vantagem_descrição"> by Cicero are also reproduced in their exact original form,
+                    accompanied by English versions from the 1914 translation 
+                    by H. Rackham.</p>
+            </div>
+            <div class="vantagem">
+                <h2 class="vantagem_titulo"> Para todas as idades </h2>
+                <p class="vantagem_descrição"> by Cicero are also reproduced in their exact original form,
+                    accompanied by English versions from the 1914 translation 
+                    by H. Rackham.</p>
+            </div>
+            <div class="vantagem">
+                <h2 class="vantagem_titulo"> Atualizado </h2>
+                <p class="vantagem_descrição"> by Cicero are also reproduced in their exact original form,
+                    accompanied by English versions from the 1914 translation 
+                    by H. Rackham.</p>
+            </div>
+            <div class="vantagem">
+                <h2 class="vantagem_titulo"> Comece hoje </h2>
+                <p class="vantagem_descrição"> by Cicero are also reproduced in their exact original form,
+                    accompanied by English versions from the 1914 translation 
+                    by H. Rackham.</p>
+            </div>
+    </section>
+    <!-- Newletter-->
+    <section class="newsletter">
+        <div class="newsletter-container">
+            <div class="newsletter-info">
+                <h2 class="newsletter-info_titulo"> newsletter </h2>
+                <p class="newsletter-info_descrição"> Assine e receba as novidades </p>
+            </div>
+            <form action="" class="newsletter-form">
+                <input type="text" placeholder="seu e-mail" class="newsletter-form_input">
+                <button type="submit" class="newsletter-form_submit"> Assinar </button>
+            </form>
+        </div>
+</section>
+<footer class="footer">
+    <p class="footer_copyright"> Este é um projeto que servirá de maquete, <br>
+        para o vosso projeto final.
+    </p>
+    <a href="index.html"></a>
+        <img src="img/logo.png" alt="Frontbox" class="footer_logo">
+</footer>
+</body>
+</html>
